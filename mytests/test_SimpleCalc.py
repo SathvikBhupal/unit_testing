@@ -5,6 +5,8 @@ sys.path.insert(0, '..\\')
 from calculator.simplecalculator import Calculator
 
 class TestSimpleCalc(unittest.TestCase):
+    
+    
 
     @classmethod
     def setUpClass(cls):
