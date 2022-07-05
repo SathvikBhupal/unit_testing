@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+        stage('Submit Stack') {
+            steps {
+            sh "aws cloudformation create-stack --stack-name simple-calculator --template-body file://template.yaml --region 'ap-south-1'"
+              }
+             }
+            }
+            }
